@@ -2,7 +2,7 @@ from model.Book import Book
 from model.client import client
 from model.librarian import librarian
 from model.Borrowing_Order import Borrowing_Order
-from Utills.utills import constatns, book_status, order_status
+from Utills.utills import constatns, order_status
 from datetime import date
 
 specialCLient = client(0,"",0,0,0)
